@@ -56,8 +56,6 @@ customer_shopping_behavior_analysis/
     └── customer_shopping_behavior_analysis.pbix  # Power BI file                                  
 ```
 
----
-
 ## 💡 Key Insights & Analysis
 * **Customer Segmentation:** Identified core spending groups based on age demographics, purchase frequency, and subscription status.
 
@@ -67,18 +65,15 @@ customer_shopping_behavior_analysis/
 
 ---
 
-
 ## 📊 Power BI Dashboard
 The included .pbix file provides an interactive visual dashboard featuring:
+* Revenue and sales by product category.
+* It shows Customer review ratings.
+* Subscription status of customers in percentage.
+  
+![Power BI Dashboard Preview](power_bi_image.png)
 
-* Revenue by product category & location.
-
-* Customer review score trends.
-
-* Shipping preference breakdown and payment method preferences.
-
-
-
+---
 
 ## 🚀 How to Run This Project
 ### 1. Python Analysis (Jupyter Notebook)
@@ -87,12 +82,10 @@ The included .pbix file provides an interactive visual dashboard featuring:
 git clone https://github.com/Shefali-L/customer_behaviour_analysis.git
 cd customer_behaviour_analysis
 ```
-
 * Install the required Python packages:
 ```DOS
 pip install pandas numpy matplotlib seaborn jupyter
 ```
-
 * Launch Jupyter Notebook:
 ```DOS
 jupyter notebook Customer_Shopping_Behavior_Analysis.ipynb
